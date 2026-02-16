@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"_Packages","folderPath":"folders/_Packages.yy","name":"_Packages","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Alphish","folderPath":"folders/_Packages/Alphish.yy","name":"Alphish","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Prettle","folderPath":"folders/_Packages/Alphish/Prettle.yy","name":"Prettle","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Strewt","folderPath":"folders/_Packages/Alphish/Strewt.yy","name":"Strewt","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Patterns","folderPath":"folders/_Packages/Alphish/Strewt/Patterns.yy","name":"Patterns","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -25,6 +26,10 @@
   "name":"Prettle",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"ctor_PrettleSeparator","path":"scripts/ctor_PrettleSeparator/ctor_PrettleSeparator.yy",},},
+    {"id":{"name":"ctor_PrettleSequence","path":"scripts/ctor_PrettleSequence/ctor_PrettleSequence.yy",},},
+    {"id":{"name":"ctor_PrettleShortcode","path":"scripts/ctor_PrettleShortcode/ctor_PrettleShortcode.yy",},},
+    {"id":{"name":"ctor_PrettleTag","path":"scripts/ctor_PrettleTag/ctor_PrettleTag.yy",},},
     {"id":{"name":"ctor_StrewtCharset","path":"scripts/ctor_StrewtCharset/ctor_StrewtCharset.yy",},},
     {"id":{"name":"ctor_StrewtChartable","path":"scripts/ctor_StrewtChartable/ctor_StrewtChartable.yy",},},
     {"id":{"name":"ctor_StrewtException","path":"scripts/ctor_StrewtException/ctor_StrewtException.yy",},},
