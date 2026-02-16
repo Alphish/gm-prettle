@@ -26,7 +26,7 @@
   },
   "name":"Prettle",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
     {"id":{"name":"ctor_PrettleException","path":"scripts/ctor_PrettleException/ctor_PrettleException.yy",},},
     {"id":{"name":"ctor_PrettleParser","path":"scripts/ctor_PrettleParser/ctor_PrettleParser.yy",},},
     {"id":{"name":"ctor_PrettleSeparator","path":"scripts/ctor_PrettleSeparator/ctor_PrettleSeparator.yy",},},
@@ -47,7 +47,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
