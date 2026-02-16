@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ctor_PrettleShortcodePattern",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ctor_PrettleShortcodePattern",
+  "parent":{
+    "name":"Parsing",
+    "path":"folders/_Packages/Alphish/Prettle/Parsing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

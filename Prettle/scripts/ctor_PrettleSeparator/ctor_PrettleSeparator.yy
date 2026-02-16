@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ctor_PrettleSeparator",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ctor_PrettleSeparator",
+  "parent":{
+    "name":"Prettle",
+    "path":"folders/_Packages/Alphish/Prettle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

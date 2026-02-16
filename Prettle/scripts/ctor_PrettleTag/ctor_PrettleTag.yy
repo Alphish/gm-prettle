@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ctor_PrettleTag",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ctor_PrettleTag",
+  "parent":{
+    "name":"Prettle",
+    "path":"folders/_Packages/Alphish/Prettle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
