@@ -28,6 +28,8 @@
   },
   "name":"Prettle",
   "resources":[
+    {"id":{"name":"fnt_Test","path":"fonts/fnt_Test/fnt_Test.yy",},},
+    {"id":{"name":"obj_Test","path":"objects/obj_Test/obj_Test.yy",},},
     {"id":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
     {"id":{"name":"ctor_PrettleCanvas","path":"scripts/ctor_PrettleCanvas/ctor_PrettleCanvas.yy",},},
     {"id":{"name":"ctor_PrettleCanvasProcessor","path":"scripts/ctor_PrettleCanvasProcessor/ctor_PrettleCanvasProcessor.yy",},},
@@ -53,6 +55,7 @@
     {"id":{"name":"ctor_StrewtReader","path":"scripts/ctor_StrewtReader/ctor_StrewtReader.yy",},},
     {"id":{"name":"ctor_StringQuoteDoublingPattern","path":"scripts/ctor_StringQuoteDoublingPattern/ctor_StringQuoteDoublingPattern.yy",},},
     {"id":{"name":"funcs_Strewt","path":"scripts/funcs_Strewt/funcs_Strewt.yy",},},
+    {"id":{"name":"spr_Emoji","path":"sprites/spr_Emoji/spr_Emoji.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
