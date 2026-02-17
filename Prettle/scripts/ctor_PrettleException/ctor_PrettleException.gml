@@ -15,6 +15,13 @@ function PrettleException(_code, _description) constructor {
     }
 }
 
+PrettleException.not_implemented = function(_context, _method) {
+    return new PrettleException(
+        nameof(not_implemented),
+        $"{instanceof(_context)}.{_method} was not implemented."
+        );
+}
+
 PrettleException.parser_unopened_tag = function(_position) {
     return new PrettleException(
         nameof(parser_unopened_tag),
@@ -33,5 +40,27 @@ PrettleException.parser_tag_duplicate_attribute = function(_position, _attribute
     return new PrettleException(
         nameof(parser_tag_duplicate_attribute),
         $"Parsing error at #{_position}: The attribute {_attribute} is duplicated."
+        );
+}
+
+PrettleException.processing_invalid_type = function(_element) {
+    var _type_description = is_struct(_element) ? $"{instanceof(_element)} struct" : typeof(_element); 
+    return new PrettleException(
+        nameof(processing_invalid_type),
+        $"Expected a valid Prettle sequence element (string literal/separator/shortcode/tag) but got {_type_description} instead."
+        );
+}
+
+PrettleException.processing_unknown_shortcode = function(_code) {
+    return new PrettleException(
+        nameof(processing_unknown_shortcode),
+        $"Cannot process an unknown shortcode '{_code}'. Define the handler for the code or replace it with a known one instead."
+        );
+}
+
+PrettleException.processing_unknown_tag = function(_tag) {
+    return new PrettleException(
+        nameof(processing_unknown_tag),
+        $"Cannot process an unknown tag '{_code}'. Define the handler for the tag or replace it with a known one instead."
         );
 }
