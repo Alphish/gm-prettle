@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ctor_PrettleTextGraphic",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ctor_PrettleTextGraphic",
+  "parent":{
+    "name":"Graphics",
+    "path":"folders/_Packages/Alphish/Prettle/Graphics.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
