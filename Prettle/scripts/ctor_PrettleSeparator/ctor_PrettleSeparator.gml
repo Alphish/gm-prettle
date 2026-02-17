@@ -1,3 +1,3 @@
-function PrettleSeparator(_character) constructor {
-    character = _character;
+function PrettleSeparator(_separator) constructor {
+    separator = _separator;
 }

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ctor_PrettleCanvasProcessor",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ctor_PrettleCanvasProcessor",
+  "parent":{
+    "name":"Processing",
+    "path":"folders/_Packages/Alphish/Prettle/Processing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
